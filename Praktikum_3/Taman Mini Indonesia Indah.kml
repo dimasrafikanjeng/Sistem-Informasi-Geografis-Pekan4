@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Taman Mini Indonesia Indah</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Polygon 1</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.8893065,-6.3037662,0
+              106.888296,-6.3037662,0
+              106.8882921,-6.3039019,0
+              106.8882219,-6.3041268,0
+              106.8880034,-6.3042703,0
+              106.8877654,-6.3043052,0
+              106.8876211,-6.3042626,0
+              106.8875938,-6.3041772,0
+              106.8874962,-6.3041617,0
+              106.8875001,-6.3043983,0
+              106.8874884,-6.3047357,0
+              106.8874533,-6.3048365,0
+              106.8877576,-6.3049295,0
+              106.8883311,-6.3050653,0
+              106.8891738,-6.3052204,0
+              106.8894742,-6.3052553,0
+              106.8894391,-6.3050459,0
+              106.8895211,-6.3049567,0
+              106.8898488,-6.3049993,0
+              106.8903325,-6.3049528,0
+              106.8906095,-6.304755,0
+              106.8906642,-6.3044797,0
+              106.8906134,-6.3042393,0
+              106.890473,-6.3039446,0
+              106.8904145,-6.3038554,0
+              106.8903559,-6.3037546,0
+              106.8901414,-6.3037507,0
+              106.8895211,-6.3037623,0
+              106.889404,-6.303805,0
+              106.8893065,-6.3037662,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
